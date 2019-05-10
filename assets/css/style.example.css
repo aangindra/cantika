@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'Exo 2`';
+    src:url("fonts/Exo2-Regular.otf");
+}
+
+body, html {
+    font-family: "Exo 2", sans-serif;
+    font-style: normal;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#navigation {
+    width: 100%;
+}
+.show {
+    width: 100%;
+    background: #fff;
+}
+
+
+.menu-btn {
+    display: none;
+}
+
+@media (min-width: 320px) {
+    .menu-btn {
+        display: block;
+    }
+    .navbar-collapse {
+        display: none;
+    }
+}
+
+@media (min-width: 767px) {
+    .menu-btn {
+        display: none;
+    }
+    .navbar-collapse {
+        display: block;
+    }
+}
+
+.mnav {
+    background: #82c13f;
+    color: #fff;
+}
+
+.pushy-content {
+
+}
+
+.pushy-content > ul {
+    list-style: none;
+}
+
+.pushy-content > ul > li > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nave > a {
+    text-decoration: none;
+    color: #000;
+}
+
+#header {
+    position: sticky;
+}
+
+.page-banner {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+}
+
+.page-banner > video {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    height: auto;
+}
+
+.page-banner .banner-content {
+    position: absolute;
+    text-align: center;
+    z-index: 995;
+}
+
+.banner-content {
+    width: 100%;
+    height: auto;
+    margin-top: 10em;
+}
+
+.banner-content > h1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.service {
+    z-index: 995;
+    position: relative;
+    width: 100%;
+    margin-top: 10em;
+}
+
+.service .container > .wrap {
+    width: 100%;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 30px 0px #000;
+    -moz-box-shadow: 0px 0px 30px 0px #000;
+    box-shadow: 0px 0px 30px 0px #000;
+}
+
+.image-service {
+    width: 250px;
+    height: 250px;
+}
+
+.image-service > img {
+    width: 100%;
+    height: 100%;
+}
+
+.item-service {
+    background-color: #fff;
+}
+.item-service:hover {
+    background-color: #82c13f;
+}
+
+.why {
+    position: relative;
+    z-index: 995;
+    width: 100%;
+    background: linear-gradient(180deg, #fff, rgba(215, 215, 215, 0.5));
+}
+
+.why .container > .wrap {
+    width: 100%;
+    background: linear-gradient(180deg, #fff, rgba(215, 215, 215, 0.5));
+    -webkit-box-shadow: 0px 0px 30px 0px #000;
+    -moz-box-shadow: 0px 0px 30px 0px #000;
+    box-shadow: 0px 0px 30px 0px #000;
+}
+
+.testimoni {
+    background: rgba(215, 215, 215, 0.5);
+    position: relative;
+    z-index: 995;
+    width: 100%;
+}
+
+.image-testi {
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius: 5px;
+}
+
+.content-testi {
+    background: #fff;
+    padding: 1em;
+}
+
+.twentytwenty {
+    width: 100%;
+    position: relative;
+}
+
+.twentytwenty-container {
+    height: 90vh !important;
+}
+
+.promo {
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+}
+
+.promo-item {
+    width: 100%;
+}
+
+/*.layer-content {*/
+    /*display: none;*/
+    /*width: 100%;*/
+/*}*/
+.promo-item > .layer-content{
+    width: 100%;
+}
+.promo-item:hover > .layer-content {
+    display: block;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.layer-content {
+    background: rgba(0, 0, 0, 0.47);
+    position: absolute;
+    display: none;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.image-promo > img {
+    width: 100%;
+    height: auto;
+}
